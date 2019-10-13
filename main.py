@@ -165,5 +165,5 @@ def require_login():
 app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RU'
 
 if __name__ == "__main__":
-    app.run(host = '0.0.0.0' )
+    app.run()
 
