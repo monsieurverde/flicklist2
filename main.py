@@ -157,7 +157,6 @@ def require_login():
     if not ('user' in session or request.endpoint in endpoints_without_login):
         return redirect("/register")
 
-
 # In a real application, this should be kept secret (i.e. not on github)
 # As a consequence of this secret being public, I think connection snoopers or
 # rival movie sites' javascript could hijack our session and act as us,
